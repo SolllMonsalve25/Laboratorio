@@ -1,7 +1,4 @@
-/* Estilos para el cuerpo del documento */
-* {
-    box-sizing: border-box; /* Incluir bordes y rellenos en el ancho y alto */
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -10,37 +7,46 @@ body {
 }
 
 header {
-    background-image: url(/Veterinaria/img/fondo\ huellitas.jpg);
-    color: #fff;
+    background-color: #333;
+    color: #f5f5f5;
     text-align: center;
     padding: 55px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(img/patron\ huellitas.png) ;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
 }
 
 header h1 {
-    font-size: 24px;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+    padding-top: 1%;
 }
 
 header h2 {
-    font-size: 18px;
-    margin: 5px 0 0;
-}
+    font-style: italic;
+    font-size: 72px;
+    margin-left: 10%;
+    margin-top: -33px;
+}   
 
 nav {
-    background-color: rgb(97, 153, 59);
+    background-color: rgb(25, 64, 60);
     padding: 20px 10px;
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 nav a {
     margin: 0 10px;
     text-decoration: none;
     font-size: 27px;
-    color: #333;
+    color: #fdfdfd;
     display: inline-block;
-    border-right: 3px solid #ccc; /* Agrega una línea sólida a la derecha de cada enlace */
-    padding-right: 10px; /* Añade espacio entre las palabras y las líneas */
-    margin-right: 10px; /* Añade espacio entre los enlaces */
+    border-right: 3px solid #b9b9b9;
+    padding-right: 10px; 
+    margin-right: 10px; 
 }
 
 nav a:last-child {
@@ -48,7 +54,9 @@ nav a:last-child {
 }
 
 nav a:hover {
-    color: #000;
+    color: #ffffff;
+    background-color: rgba(34, 117, 109, 0.979);
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -62,53 +70,98 @@ section {
 }
 
 .informacion-principal {
-    background-color: #e9d8a3;
-    padding: 80px;
-    width: 600px; /* Ajusta el ancho según sea necesario */
-    margin-right: 10px; /* Espacio entre el formulario y la .informacion-principal */
-    border-radius: 10px;
+    background-color: #f0f0a6;
+    padding: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 10px;  
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .informacion-principal h2 {
     font-size: 20px;
     margin: 0;
+    padding-top: 10px;
 }
 
 .informacion-principal p {
     margin: 10px 0;
+    padding-top: 30px;
+    width: 50%;
 }
 
 .informacion-principal a {
+    background-color: #000;
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
 }
+.informacion-principal img {
+    width: 200px;
+    height:200px;
+    border-radius: 20%;
+    float:  right;
+     
 
-.informacion-secundaria {
-    background-color: #e9d8a3;
-    padding: 80px;
-    width: 600px; /* Ancho deseado */
-    clear: left; /* Alinea a la izquierda */
-    margin-right: 10px; /* Espacio entre la .informacion-principal y la .informacion-secundaria */
 }
 
+.informacion-secundaria {
+    background-color: #f0f0a6;
+    padding: 30px;
+    width: 50%; 
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacion-secundaria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    float: right;
+}
+
+.informacion-secundaria h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.informacion-secundaria p {
+    margin: 10px 0;
+    padding-top: 30px;
+    width: 50%;
+}
 
 .formulario-cita {
-    background-color: rgb(92, 108, 124);
-    border: 1px solid #ccc; /* Agregar un borde al formulario */
-    padding: 20px; /* Agregar relleno al formulario */
-    float: right; /* Alinear el formulario a la derecha */
-    width: 40%; 
+    border: 1px solid #ccc; 
+    padding: 50px; 
+    float: right; 
+    width: 30%; 
+    height: 513px;
     border-radius: 20px;
+    
+    background-color: rgba(25, 64, 60, 0.61);
 }
 
 .formulario-cita h3 {
-    font-size: 18px;
-    margin: 0 0 10px;
+    font-size: 19px;
+    margin: 0 0 30px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(25, 64, 60);
 }
 
 .formulario-cita label {
     display: block;
     margin-bottom: 5px;
+    padding: 7px;
 }
 
 .formulario-cita input {
@@ -118,22 +171,34 @@ section {
 }
 
 .formulario-cita button {
-    background-color: #7a6f6f;
+    background-color: rgb(25, 64, 60);
     color: #fff;
     padding: 10px 20px;
     border: none;
+    border-radius: 20px;
     cursor: pointer;
-    text-align: center; /* Centra el botón */
-    display: block; /* Para que el botón ocupe todo el ancho */
-    margin: 0 auto; /* Centra el botón horizontalmente */
+    text-align: center; 
+    display: block; 
+    margin-left: 120px;
+    margin-top: 25px;
+    justify-content: center;
     
 }
 
-footer {
+.formulario-cita button:hover{
+    border-radius: 1px;
     background-color: #333;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(25, 64, 60);
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 footer p {
@@ -141,7 +206,9 @@ footer p {
 }
 
 .container {
-    max-width: 1200px; /* Establece el ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor en la página */
-    padding: 0 20px; /* Agrega relleno a los lados del contenedor */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
+
+@media (max-width: 600px) {}
