@@ -1,5 +1,137 @@
-nav{
-    background-color: rgb(75, 31, 231);
+header{
+    background-color:#b2b2b2;
+    color: #0b0a0a;
+    text-align: center;
+    padding: 55px 0;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+hr{
+    border: solid 5px;
+}
+
+nav {
+    background-color: #f3b615;
     padding: 20px 10px;
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+    display: inline-block;
+    border-right: 3px solid #ccc;
+    padding-right: 65px; 
+    margin-right: 65px; 
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: gre;
+    border-radius: 10px;
+    text-align: center;
+}
+/* se agrego la tabla*/
+.container {
+  background-color:#b2b2b2;
+   width: 250px;
+   height:340px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+  
+ }
+ 
+ .titulo{
+     background-color:#0c0c0c;
+     width: 252px;
+     height:4px;
+     margin: 0 auto;
+     color: #ffffff;
+     text-align: center;
+     padding: 15px ;
+     border-top-left-radius: 13px;
+     border-top-right-radius: 13px;
+     
+ }
+ 
+ form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .form-group {
+   margin-bottom: 15px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ input,
+ select {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+ }
+ 
+ button {
+   background-color: #ebb627;
+   color: #474747;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #0056b3;
+ }
+
+
+/* Media queries para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    header {
+        padding: 25px 0;
+    }
+    
+    nav {
+        padding: 15px 5px;
+    }
+    
+    nav a {
+        nav a {
+            display: block;
+            width: 50%; /* Asegura que cada enlace ocupe la mitad del ancho */
+            float: left; /* Hace que los enlaces floten a la izquierda */
+            box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+            padding: 5px 10px;
+            margin: 5px 0;
+        }
+
+        
+    }
+}
+
+.titulo2{
+  background-color:#0e0a0a;
+  width: 252px;
+  height: 35px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px ;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
 }
