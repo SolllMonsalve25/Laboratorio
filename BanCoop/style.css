@@ -5,6 +5,30 @@ header{
     padding: 55px 0;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+    height: 80px;
+}
+
+.logo{
+  width: 200px;
+  position: absolute;
+  right: 100px;
+  top: 0%;
+  padding: 10px;
+
+}
+
+h1{
+  text-align: center;
+  position: relative;
+  top: -80px;
+  font-size: 70px;
+}
+
+h2{
+  text-align: center;
+  position: relative;
+  top: -120px;
+  font-size: 30px;
 }
 
 hr{
@@ -48,6 +72,7 @@ nav a:hover {
    margin: 0 auto;
    padding: 20px;
    border: 1px solid #ccc;
+   
   
  }
  
@@ -61,6 +86,7 @@ nav a:hover {
      padding: 15px ;
      border-top-left-radius: 13px;
      border-top-right-radius: 13px;
+     
      
  }
  

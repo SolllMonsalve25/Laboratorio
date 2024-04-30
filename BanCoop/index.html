@@ -7,46 +7,51 @@
     <title>Bancoopt</title>
 </head>
 <body> 
-        <header>
-            <h1>Bancoop</h1> 
-            <h2>Te ayuda a alcanzar tus metas</h2>
-            <img src="/BanCoop/img/Logo.png">
-        </header>
-        <hr>
-        <nav>
-            <a href="#">Creditos</a>
-            <a href="#">Leasing</a>
-            <a href="#">Ahorros</a>
-            <a href="#">Servicio al Cliente</a>
-        </nav>
-
-        <div class="titulo"> INGRESA  TU CUENTA </div>
-  <div class="container">
-    <form action="#">
-      <div class="form-group">
-        <label for="cuenta">Cuenta:</label>
-        <input type="text" id="cuenta" name="cuenta" required>
+  
+    <header>
+      <h1>Bancoop</h1> 
+      <h2>Te ayuda a alcanzar tus metas</h2>
+      <img class="logo" src="/BanCoop/img/Logo.png">
+    </header>
+    <hr>
+    
+    <nav>
+      <a href="#">Creditos</a>
+      <a href="#">Leasing</a>
+      <a href="#">Ahorros</a>
+      <a href="#">Servicio al Cliente</a>
+    </nav>
+    
+    <div class="titulo"> INGRESA  TU CUENTA</div>
+    <div class="container">
+      <form action="#">
+        <div class="form-group">
+          <label for="cuenta">Cuenta:</label>
+          <input type="text" id="cuenta" name="cuenta" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="tipo">Tipo:</label>
+          <select id="tipo" name="tipo" required>
+            <option value="">Seleccionar</option>
+            <option value="personal">Personal</option>
+            <option value="empresarial">Empresarial</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="clave">Clave:</label>
+          <input type="password" id="clave" name="clave" required>
+        </div>
+        <button type="submit">Registrarse</button>
+      </form>
+      
+      <div class="titulo2">SOLICITA NUESTROS PRODUCTOS</div>
+      <div class="container">
+        <img src="/BanCoop/img/credito.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, quod. Maiores recusandae saepe nobis! Maiores in sit inventore voluptas, iure sint repellat provident. Perspiciatis sed expedita ipsa aperiam eaque similique?</p>
       </div>
-      <div class="form-group">
-        <label for="tipo">Tipo:</label>
-        <select id="tipo" name="tipo" required>
-          <option value="">Seleccionar</option>
-          <option value="personal">Personal</option>
-          <option value="empresarial">Empresarial</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="clave">Clave:</label>
-        <input type="password" id="clave" name="clave" required>
-      </div>
-      <button type="submit">Registrarse</button>
-    </form>
-
-    <div class="titulo2">SOLICITA NUESTROS PRODUCTOS</div>
-     <div class="container">
-      <img src="/BanCoop/img/credito.png">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, quod. Maiores recusandae saepe nobis! Maiores in sit inventore voluptas, iure sint repellat provident. Perspiciatis sed expedita ipsa aperiam eaque similique?</p>
     </div>
-  </div>
+  
 </body>
 </html>
