@@ -1,46 +1,51 @@
-header{
-    background-color:#b2b2b2;
-    color: #0b0a0a;
-    text-align: center;
-    padding: 55px 0;
-    border-top-left-radius: 13px;
-    border-top-right-radius: 13px;
-    height: 80px;
+
+
+.header{
+  background-color: grey;
+  padding: 2% 2% 2% 2%;
+  margin: 0%;
+  text-align: justify;
+  border-top-left-radius:  15px;
+  border-top-right-radius: 15px;
+  justify-content: start;
+  display: grid;
+   grid-template-columns: repeat(2, 1fr) ;
+  
+
 }
 
 .logo{
-  width: 200px;
+  width: 300px;
+  left: 450px;
   position: absolute;
-  right: 100px;
-  top: 0%;
+  right: -1px;
+  top: 5%;
   padding: 10px;
-
+  margin-top: 70px;
 }
 
 h1{
   text-align: center;
-  position: relative;
   top: -80px;
   font-size: 70px;
 }
-
-h2{
+h3{
   text-align: center;
-  position: relative;
   top: -120px;
   font-size: 30px;
 }
 
-hr{
-    border: solid 5px;
+.nav{
+background-color: black;
+display: flex;
 }
 
 nav {
-    background-color: #f3b615;
-    padding: 20px 10px;
-    text-align: center;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  background-color: #f3b615;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 nav a {
@@ -50,8 +55,8 @@ nav a {
     color: #333;
     display: inline-block;
     border-right: 3px solid #ccc;
-    padding-right: 65px; 
-    margin-right: 65px; 
+    padding-right: 15px; 
+    margin-right: 25px; 
 }
 
 nav a:last-child {
@@ -64,100 +69,219 @@ nav a:hover {
     border-radius: 10px;
     text-align: center;
 }
-/* se agrego la tabla*/
-.container {
-  background-color:#b2b2b2;
-   width: 250px;
-   height:340px;
-   margin: 0 auto;
-   padding: 20px;
-   border: 1px solid #ccc;
-   
-  
- }
- 
- .titulo{
-     background-color:#0c0c0c;
-     width: 252px;
-     height:4px;
-     margin: 0 auto;
-     color: #ffffff;
-     text-align: center;
-     padding: 15px ;
-     border-top-left-radius: 13px;
-     border-top-right-radius: 13px;
-     
-     
- }
- 
- form {
-   display: flex;
-   flex-direction: column;
- }
- 
- .form-group {
-   margin-bottom: 15px;
- }
- 
- label {
-   display: block;
-   margin-bottom: 5px;
- }
- 
- input,
- select {
-   width: 100%;
-   padding: 10px;
-   border: 1px solid #ccc;
-   border-radius: 3px;
- }
- 
- button {
-   background-color: #ebb627;
-   color: #474747;
-   padding: 10px 20px;
-   border: none;
-   border-radius: 3px;
-   cursor: pointer;
- }
- 
- button:hover {
-   background-color: #0056b3;
- }
+.menu{
+background-color: yellow;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
 
 
-/* Media queries para dispositivos móviles */
-@media only screen and (max-width: 767px) {
-    header {
-        padding: 25px 0;
-    }
-    
-    nav {
-        padding: 15px 5px;
-    }
-    
-    nav a {
-        nav a {
-            display: block;
-            width: 50%; /* Asegura que cada enlace ocupe la mitad del ancho */
-            float: left; /* Hace que los enlaces floten a la izquierda */
-            box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
-            padding: 5px 10px;
-            margin: 5px 0;
-        }
-
-        
-    }
 }
 
-.titulo2{
-  background-color:#0e0a0a;
-  width: 252px;
-  height: 35px;
-  margin: 0 auto;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px ;
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
+ul li{
+display: inline-block;
+padding: 0px 51px 5px 40px;
+font-size: 20px;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+
+.rounded {
+border-radius: 5px;
+background-color: yellow;
+
+}
+
+
+img{
+width: 200px;
+display: block;
+max-width: 70%;
+height: 150px; 
+object-fit: cover;
+margin: 0 auto;
+}
+h5{
+color: white;
+background-color: black;
+padding: 5%;
+text-align: center;
+display: block;
+margin-top: 1px;
+}
+
+h4{
+color: white;
+background-color: rgb(0, 0, 0);
+padding: 5%;
+text-align: center;
+border-top-left-radius:  15px;
+border-top-right-radius: 15px;
+}
+
+hr{
+  width: 200px;
+}
+
+
+p{
+text-align: justify;
+
+}
+
+.card1{
+width: 120%;
+height: 290px;
+text-align: center;
+background-color: #b2b2b2;
+border-top-left-radius:  15px;
+border-top-right-radius: 15px;
+padding: 0%;
+}
+.card2{
+width: 90%;
+height: 79%;
+background-color:#b2b2b2;
+border-top-left-radius:  15px;
+padding: 0%;
+margin-top: 21px;
+}
+.card3{
+width: 90%;
+height: 79%;
+background-color: #b2b2b2;
+border-top-right-radius: 15px;
+margin-top: 21px;
+}
+
+.lib{
+  object-fit: none;
+}
+
+.est{
+  width: 80px;
+  height: 70px;
+  border-radius: 3%;
+}
+
+.card4{
+width: 120%;
+height: 54%;
+background-color: rgb(37, 37, 37);
+
+}
+
+h6{
+color: yellow;
+text-align: center;
+padding: 4%;
+background-color: #000000;
+}
+.ban{
+color: white;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-size: 0.8em;
+  line-height: 1.5;
+}
+.card5{
+width: 90%;
+height: 100%;
+background-color: #b2b2b2;
+border-bottom-left-radius: 15px;
+margin-top: -50px;
+}
+.card6{
+width: 90%;
+height: 100%;
+background-color: #b2b2b2;
+border-bottom-right-radius: 15px;
+margin-top: -50px;
+}
+
+
+footer{
+background-color: black;
+border-end-start-radius:  15px;
+border-end-end-radius: 15px;
+}
+
+h2{
+color: white;
+text-align: center;
+font-size: large;
+padding: 2%;
+}
+
+form{
+text-align: left;
+padding: 5%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.card-container{
+display: grid;
+grid-template-columns: 1fr 3fr;
+gap: 70px;
+}
+
+.card2-container{
+display: grid;
+grid-template-columns: repeat(2, 0.5fr) ;
+gap: 10px;
+}
+
+
+
+@media screen and (min-width: 985px) {
+
+.container {
+background-color: #fdfeff;
+margin: 3% 17% 3% 17%;
+}
+
+ul li{
+display: inline-block;
+padding: 0px 126px 5px 40px;
+font-size: 20px;
+}
+
+.card-container{
+display: grid;
+grid-template-columns: 1fr 3fr;
+gap: 90px;
+}
+
+.card2-container{
+display: grid;
+grid-template-columns: repeat(2, 0.5fr) ;
+gap: 7px;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+     width: 100%;
+   }
+ }
+
+
+
 }
